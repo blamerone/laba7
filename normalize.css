@@ -1,0 +1,18 @@
+/* Пример нормализации стилей для заголовков */
+h1 {
+    font-size: 2em;
+    margin: 0.67em 0;
+}
+
+/* Пример нормализации стилей для списков */
+ul, ol {
+    margin: 1em 0;
+    padding: 0 0 0 40px;
+}
+
+/* Пример нормализации стилей для форм */
+button, input, select, textarea {
+    font-family: inherit;
+    font-size: 100%;
+    margin: 0;
+}

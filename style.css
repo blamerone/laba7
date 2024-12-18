@@ -1,0 +1,56 @@
+/* Упрощённые стили для всего сайта */
+
+body {
+    background-color: #b0e0e6; /* Светло-голубой фон */
+    font-family: Arial, sans-serif; /* Простой шрифт */
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 80%; /* Ширина контейнера */
+    margin: 0 auto; /* Выравнивание по центру */
+    background-color: #fff; /* Белый фон */
+    padding: 20px; /* Внутренние отступы */
+    border: 1px solid #ccc; /* Серая рамка */
+}
+
+h1 {
+    text-align: center; /* Заголовок по центру */
+    color: #333; /* Тёмный цвет текста */
+}
+
+form {
+    margin-top: 20px; /* Отступ сверху */
+}
+
+label {
+    display: block; /* Метки в блоке */
+    margin-bottom: 5px; /* Отступ снизу */
+}
+
+input {
+    width: 100%; /* Ширина 100% */
+    padding: 10px; /* Внутренние отступы */
+    margin-bottom: 10px; /* Отступ снизу */
+    border: 1px solid #ccc; /* Серая рамка */
+}
+
+button {
+    padding: 10px 20px; /* Внутренние отступы */
+    background-color: #007bff; /* Синий фон */
+    color: #fff; /* Белый текст */
+    border: none; /* Убираем рамку */
+    cursor: pointer; /* Курсор в виде руки */
+}
+
+button:hover {
+    background-color: #0056b3; /* Тёмно-синий фон при наведении */
+}
+
+footer {
+    text-align: center; /* Текст по центру */
+    padding: 10px; /* Внутренние отступы */
+    background-color: #f1f1f1; /* Светло-серый фон */
+    margin-top: 20px; /* Отступ сверху */
+}
